@@ -7,6 +7,16 @@ An attack surface that is vulnerable or exposed in some way to network-based att
 A network security feature such as an IDS configured to detect and log such attacks
 Illustration of at least one attack against the honeypot that can be detected or logged in a way that captures information about the attack or the attacker
 
+>Features of MHN
+
+MHN is a Flask application that exposes an HTTP API that honeypots can use to:
+
+-It also allows system administrators to:
+-Download a deploy script
+-Connect and register
+-Download snort rules
+-Send intrusion detection logs
+
 
 >Which Honeypot(s) you deployed
 
