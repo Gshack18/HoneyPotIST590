@@ -32,7 +32,7 @@ Snort
 
 The install of the MHN admin has issues installing so I had to look at [MHN Troubleshooting](https://github.com/threatstream/mhn/wiki/MHN-Troubleshooting-Guide) for help
 
-Once I had oe Dionaea depoyed I wasn't seeing anything in the log files and left it over night and still saw nothing. Did some troubleshooting but decided to move on to another vm calle "Snort".
+Once I had oe Dionaea depoyed I wasn't seeing anything in the log files and left it over night and still saw nothing. Did some troubleshooting but decided to move on to another vm called "Snort".
 
 
 Steps I had to do to get everything up and running
