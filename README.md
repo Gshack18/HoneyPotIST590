@@ -12,9 +12,13 @@ Illustration of at least one attack against the honeypot that can be detected or
 MHN is a Flask application that exposes an HTTP API that honeypots can use to:
 
 -It also allows system administrators to:
+
 -Download a deploy script
+
 -Connect and register
+
 -Download snort rules
+
 -Send intrusion detection logs
 
 
