@@ -91,12 +91,12 @@ Now it was time to login to the console and setup a deploy to have it run sensor
 By doing this we had to click deploy at the top left and chooice which one we wanted to get the scripts for. I have tried to deploy Dionaea but the sensor wouldn't pick up anything once I pased the script from console into the ssh of the honeypot vm. Next I tried to use the Snort deploy into a new tiny vm instance and it worked flawlessly until it timed out and no solutions worked for me extending the timeout sessions for he admin server.
 
 >A summary of the data collected: number of attacks, number of malware samples, etc.
-[summary picture]
-(https://github.com/Gshack18/HoneyPotIST590/blob/master/snort.jpeg)
+
+![summary picture](https://github.com/Gshack18/HoneyPotIST590/blob/master/snort.jpeg)
 
 >Any unresolved questions raised by the data collected
 Why do people do this or are they just random bots on the internet probing everything.
 
 >Additionally, include a json export of the data you collected in the repo, instructions for which can be found in the next section.
 
-[json](https://github.com/Gshack18/HoneyPotIST590/blob/master/session.json)
+![json](https://github.com/Gshack18/HoneyPotIST590/blob/master/session.json)
