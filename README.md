@@ -100,4 +100,4 @@ Why do people do this or are they just random bots on the internet probing every
 
 >Additionally, include a json export of the data you collected in the repo, instructions for which can be found in the next section.
 
-![json](https://github.com/Gshack18/HoneyPotIST590/blob/master/session.json)
+[json session file](https://github.com/Gshack18/HoneyPotIST590/blob/master/session.json)
