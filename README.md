@@ -82,3 +82,5 @@ By doing this we had to click deploy at the top left and chooice which one we wa
 Why do people do this or are they just random bots on the internet probing everything.
 
 >Additionally, include a json export of the data you collected in the repo, instructions for which can be found in the next section.
+
+[json](https://github.com/Gshack18/HoneyPotIST590/blob/master/session.json)
