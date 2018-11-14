@@ -94,7 +94,9 @@ By doing this we had to click deploy at the top left and chooice which one we wa
 
 Once I had deployed my honey pot 1 running Dionaea I saw the sensor, but nothing was being picked up and I have checked if the right Dionaea was set and firewall rules were set. Nothing worked, so then I removed the VM and deploy Snort using the method above but renaming the VM to snort. The information was gathered and shown below.
 
-To setup Snort I had to go into the google console and create a new VM and customize it to have ubuntu and I have named it "Snort" then saved it instead of using the gcloud command "gcloud compute instances create".
+>Setting up Snort
+
+I had to go into the google console and create a new VM and customize it to have ubuntu and I have named it "Snort" then saved it instead of using the gcloud command "gcloud compute instances create".
 
 Once it was created I went into the MHN admin server via the ip i was given and went to deploy. Next I went the deploy dropdown to pick Snort and then copied the script into the new VM I just created named Snort via its ssh command line. 
 
