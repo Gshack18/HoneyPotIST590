@@ -35,7 +35,7 @@ The install of the MHN admin has issues installing so I had to look at [MHN Trou
 Once I had Dionaea depoyed I wasn't seeing anything in the log files and left it over night and still saw nothing. Did some troubleshooting but decided to move on to another vm called "Snort".
 
 
-Steps I had to do to get everything up and running
+>Steps I had to do to get everything up and running
 
 To create the VM i had to use GCP command as shown to allow firewall access
 
