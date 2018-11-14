@@ -32,7 +32,7 @@ Snort
 
 The install of the MHN admin has issues installing so I had to look at [MHN Troubleshooting](https://github.com/threatstream/mhn/wiki/MHN-Troubleshooting-Guide) for help
 
-Once I had oe Dionaea depoyed I wasn't seeing anything in the log files and left it over night and still saw nothing. Did some troubleshooting but decided to move on to another vm called "Snort".
+Once I had Dionaea depoyed I wasn't seeing anything in the log files and left it over night and still saw nothing. Did some troubleshooting but decided to move on to another vm called "Snort".
 
 
 Steps I had to do to get everything up and running
@@ -67,8 +67,8 @@ MHN Configuration
 Do you wish to run in Debug mode?: y/n n
 Superuser email: YOUR_EMAIL@YOURSITE.COM
 Superuser password: 
-Server base url ["http://1.2.3.4"]: 
-Honeymap url ["http://1.2.3.4:3000"]:
+Server base url ["http://x.x.x.x"]: 
+Honeymap url ["http://x.x.x.x:3000"]:
 Mail server address ["localhost"]: 
 Mail server port [25]: 
 Use TLS for email?: y/n n
@@ -90,6 +90,8 @@ $ gcloud compute instances create "mhn-honeypot-1" --machine-type "f1-micro" --s
 From all of this we were giving Ip's to connect to the admin console using our superuser we made before.
 Now it was time to login to the console and setup a deploy to have it run sensors for the honeypots.
 By doing this we had to click deploy at the top left and chooice which one we wanted to get the scripts for. I have tried to deploy Dionaea but the sensor wouldn't pick up anything once I pased the script from console into the ssh of the honeypot vm. Next I tried to use the Snort deploy into a new tiny vm instance and it worked flawlessly until it timed out and no solutions worked for me extending the timeout sessions for he admin server.
+
+Once I had deployed my honey pot 1 running Dionaea I saw the the sensor but nothing was being picked up so then I removed the VM and deploy Snort using the method above but renaming the VM to snort. The information was gathered and shown below.
 
 >A summary of the data collected: number of attacks, number of malware samples, etc.
 
