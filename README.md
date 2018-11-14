@@ -91,7 +91,7 @@ From all of this we were giving Ip's to connect to the admin console using our s
 Now it was time to login to the console and setup a deploy to have it run sensors for the honeypots.
 By doing this we had to click deploy at the top left and chooice which one we wanted to get the scripts for. I have tried to deploy Dionaea but the sensor wouldn't pick up anything once I pased the script from console into the ssh of the honeypot vm. Next I tried to use the Snort deploy into a new tiny vm instance and it worked flawlessly until it timed out and no solutions worked for me extending the timeout sessions for he admin server.
 
-Once I had deployed my honey pot 1 running Dionaea I saw the the sensor but nothing was being picked up so then I removed the VM and deploy Snort using the method above but renaming the VM to snort. The information was gathered and shown below.
+Once I had deployed my honey pot 1 running Dionaea I saw the sensor, but nothing was being picked up and I have checked if the right Dionaea was set and firewall rules were set. Nothing worked, so then I removed the VM and deploy Snort using the method above but renaming the VM to snort. The information was gathered and shown below.
 
 >A summary of the data collected: number of attacks, number of malware samples, etc.
 
