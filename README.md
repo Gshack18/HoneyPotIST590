@@ -107,8 +107,11 @@ Next I went back into the admin server and clicked sensors to view the snort. Fr
 ![summary picture](https://github.com/Gshack18/HoneyPotIST590/blob/master/snort.jpeg)
 
 >Any unresolved questions raised by the data collected
+
 Why do people do this or are they just random bots on the internet probing everything.
 
 >Additionally, include a json export of the data you collected in the repo, instructions for which can be found in the next section.
+
+Json linked below
 
 [json session file](https://github.com/Gshack18/HoneyPotIST590/blob/master/session.json)
