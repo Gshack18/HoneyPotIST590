@@ -1,4 +1,5 @@
-# HoneyPot IST_590
+# HoneyPot Findings I found
+
 >HoneyPot assignment
 In this assignment, you will stand up a basic honeypot and demonstrate its effectiveness at detecting and/or collecting data about an attack. Guided instructions for doing this using specific software are provided below, but you are free to take any approach you wish that demonstrates the following basic principles:
 
